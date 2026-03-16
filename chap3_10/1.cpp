@@ -34,7 +34,8 @@ ListNode* MergeToDescending(ListNode* L1, ListNode* L2) {
 void AppendNode(ListNode*& head, ListNode*& tail, int val) {
     ListNode* newNode = new ListNode(val);
     if (head == nullptr) {
-        head = tail = newNode;
+        head=newNode;
+        tail=newNode;
     } else {
         tail->next = newNode;
         tail = newNode;
