@@ -16,7 +16,7 @@ void test(){
     while(top!=-1){
         sum+=st[top];
         top--;
-        cout<<sum<<endl;
+        cout<<sum<<" ";
     }
 }
 int main(){
